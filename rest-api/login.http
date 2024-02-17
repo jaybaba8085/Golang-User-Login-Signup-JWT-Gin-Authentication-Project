@@ -1,0 +1,11 @@
+POST http://localhost:8085/users/signup
+Content-Type: application/json
+
+{
+  "first_name": "Jay",
+  "last_name": "Patel",
+  "password": "password",
+  "email": "jaypatel@gmail.com",
+  "phone": "9511512614",
+  "user_type": "ADMIN"
+}
